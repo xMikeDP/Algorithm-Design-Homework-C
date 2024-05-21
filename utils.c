@@ -71,7 +71,6 @@ void distribute_books(int *book, int book_count) {
 
         // If the page count in the current section reaches the desired value, and we have less than 3 sections
         if (section_pages == desired_value && section_count < 2) {
-            printf(" SECTION PAGES: %d", section_pages);
             // Separate sections with a "-"
             printf("- ");
 
